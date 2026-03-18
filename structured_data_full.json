@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-03-18T01:21:55.691504",
+  "sources": [
+    {
+      "tool": "unknown",
+      "root_path": "C:\\Users\\User\\Desktop\\Ai_Angeener\\my_rag_project\\data",
+      "files": [
+        {
+          "path": "C:\\Users\\User\\Desktop\\Ai_Angeener\\my_rag_project\\data\\dev_plan.md",
+          "last_modified": "2026-03-18T01:21:55.689537",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "tool": "unknown",
+      "root_path": "C:\\Users\\User\\Desktop\\Ai_Angeener\\my_rag_project\\data",
+      "files": [
+        {
+          "path": "C:\\Users\\User\\Desktop\\Ai_Angeener\\my_rag_project\\data\\technical_spec.md",
+          "last_modified": "2026-03-18T01:21:55.690868",
+          "hash": ""
+        }
+      ]
+    }
+  ],
+  "items": {
+    "decisions": [
+      {
+        "id": "dec-001",
+        "title": "Stack טכנולוגי",
+        "summary": "* **Backend:** Node.js (NestJS) או Python (FastAPI). * **Database:** PostgreSQL (נתונים מובנים) ו-Redis (למטמון וביצועים).",
+        "tags": [
+          "architecture",
+          "decision"
+        ],
+        "source": {
+          "tool": "unknown",
+          "file": "C:\\Users\\User\\Desktop\\Ai_Angeener\\my_rag_project\\data\\dev_plan.md",
+          "anchor": "שלב א': אפיון וארכיטקטורה (שבועות 1-2)",
+          "line_range": [
+            12,
+            12
+          ]
+        },
+        "observed_at": "2026-03-18T01:21:55.690381"
+      }
+    ],
+    "rules": [
+      {
+        "id": "rule-001",
+        "rule": "| M4: השקה (Live) | מערכת יציבה לאחר תיקוני באגים, פתוחה לכלל המשתמשים. | סוף שבוע 12 |",
+        "scope": "general",
+        "notes": "",
+        "source": {
+          "tool": "unknown",
+          "file": "C:\\Users\\User\\Desktop\\Ai_Angeener\\my_rag_project\\data\\dev_plan.md",
+          "anchor": "2. אבני דרך (Milestones)",
+          "line_range": [
+            39,
+            39
+          ]
+        },
+        "observed_at": "2026-03-18T01:21:55.690639"
+      }
+    ],
+    "warnings": [
+      {
+        "id": "warn-001",
+        "area": "general",
+        "message": "הסיכון: התנגשויות נתונים כשמספר משתמשים עורכים את אותה משימה בו-זמנית.",
+        "severity": "medium",
+        "source": {
+          "tool": "unknown",
+          "file": "C:\\Users\\User\\Desktop\\Ai_Angeener\\my_rag_project\\data\\dev_plan.md",
+          "anchor": "3. סיכונים טכניים ודרכי התמודדות",
+          "line_range": [
+            46,
+            46
+          ]
+        },
+        "observed_at": "2026-03-18T01:21:55.690762"
+      },
+      {
+        "id": "warn-002",
+        "area": "general",
+        "message": "הסיכון: דליפת מידע רגיש של פרויקטים.",
+        "severity": "medium",
+        "source": {
+          "tool": "unknown",
+          "file": "C:\\Users\\User\\Desktop\\Ai_Angeener\\my_rag_project\\data\\dev_plan.md",
+          "anchor": "3. סיכונים טכניים ודרכי התמודדות",
+          "line_range": [
+            49,
+            49
+          ]
+        },
+        "observed_at": "2026-03-18T01:21:55.690790"
+      },
+      {
+        "id": "warn-003",
+        "area": "general",
+        "message": "הסיכון: איטיות המערכת ככל שמספר המשימות והמשתמשים גדל.",
+        "severity": "medium",
+        "source": {
+          "tool": "unknown",
+          "file": "C:\\Users\\User\\Desktop\\Ai_Angeener\\my_rag_project\\data\\dev_plan.md",
+          "anchor": "3. סיכונים טכניים ודרכי התמודדות",
+          "line_range": [
+            52,
+            52
+          ]
+        },
+        "observed_at": "2026-03-18T01:21:55.690814"
+      },
+      {
+        "id": "warn-001",
+        "area": "general",
+        "message": "הצפנת שדות רגישים בטבלה (pgcrypto)",
+        "severity": "medium",
+        "source": {
+          "tool": "unknown",
+          "file": "C:\\Users\\User\\Desktop\\Ai_Angeener\\my_rag_project\\data\\technical_spec.md",
+          "anchor": "3. מבנה בסיס הנתונים (טבלאות מרכזיות)",
+          "line_range": [
+            105,
+            105
+          ]
+        },
+        "observed_at": "2026-03-18T01:21:55.691435"
+      },
+      {
+        "id": "warn-002",
+        "area": "general",
+        "message": "Audit log מלא על פעולות רגישות",
+        "severity": "medium",
+        "source": {
+          "tool": "unknown",
+          "file": "C:\\Users\\User\\Desktop\\Ai_Angeener\\my_rag_project\\data\\technical_spec.md",
+          "anchor": "3. מבנה בסיס הנתונים (טבלאות מרכזיות)",
+          "line_range": [
+            110,
+            110
+          ]
+        },
+        "observed_at": "2026-03-18T01:21:55.691476"
+      }
+    ]
+  }
+}
